@@ -1,5 +1,12 @@
+// Package
 package pizza;
 
+// Imports
+
 public class MargheritaPizza implements Pizza {
-    // TODO: implement getDescription() and getCost()
+
+    // Attributes
+
+    // ________________________________________________________
+
 }

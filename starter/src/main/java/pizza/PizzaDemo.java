@@ -1,11 +1,19 @@
+// Package
 package pizza;
 
-public class PizzaDemo {
-    public static void main(String[] args) {
-        PizzaFactory factory = new PizzaFactory();
+// Imports
 
-        // TODO: Create a pizza using the factory
-        // TODO: Add some toppings (decorators)
-        // TODO: Place an order with a delivery strategy
+public class PizzaDemo {
+
+    // Attributes
+    private static PizzaFactory factory = new PizzaFactory();
+
+    // _____________________________________________________________
+
+    public static void main(String[] args) {
+
+        // FUck jeg hader livet
+
     }
+
 }

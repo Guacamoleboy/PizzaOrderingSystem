@@ -1,5 +1,12 @@
+// Package
 package pizza;
 
+// Imports
+
 public class DroneDelivery implements DeliveryStrategy {
-    // TODO: implement deliver(Pizza pizza)
+
+    // Attributes
+
+    // ________________________________________________________
+
 }

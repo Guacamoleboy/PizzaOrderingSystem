@@ -1,5 +1,12 @@
+// Package
 package pizza;
 
+// Imports
+
 public class HomeDelivery implements DeliveryStrategy {
-    // TODO: implement deliver(Pizza pizza)
+
+    // Attributes
+
+    // ________________________________________________________
+
 }
