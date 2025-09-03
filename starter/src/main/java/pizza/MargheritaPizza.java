@@ -3,10 +3,17 @@ package pizza;
 
 // Imports
 
-public class MargheritaPizza implements Pizza {
+public class MargheritaPizza extends Pizza {
 
     // Attributes
 
-    // ________________________________________________________
+    // _______________________________________________________________
+
+    public MargheritaPizza() {
+        this.description = "Margherita Pizza";
+        this.cost = 75;
+    }
+
+    // _______________________________________________________________
 
 }

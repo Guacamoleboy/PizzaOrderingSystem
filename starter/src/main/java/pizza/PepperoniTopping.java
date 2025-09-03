@@ -7,10 +7,24 @@ public class PepperoniTopping extends ToppingDecorator {
 
     // Attributes
 
-    // ________________________________________________________
+    // _______________________________________________
 
     public PepperoniTopping(Pizza pizza) {
         super(pizza);
+    }
+
+    // _______________________________________________
+
+    @Override
+    public String getDescription() {
+        return pizza.getDescription() + " + Pepperoni";
+    }
+
+    // _______________________________________________
+
+    @Override
+    public double getCost() {
+        return pizza.getCost() + 20;
     }
 
 }

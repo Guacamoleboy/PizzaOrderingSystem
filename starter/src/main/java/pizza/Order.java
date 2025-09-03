@@ -26,6 +26,11 @@ public class Order {
     public void processOrder() {
         System.out.println("Order: " + pizza.getDescription() + " $" + pizza.getCost());
 
+        if (deliveryStrategy != null) {
+            System.out.println(deliveryStrategy.getDeliveryMessage(pizza));
+        } else {
+            System.out.println("No delivery strategy set!");
+        }
     }
 
 }

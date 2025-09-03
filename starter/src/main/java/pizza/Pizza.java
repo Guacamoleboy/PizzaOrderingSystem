@@ -3,12 +3,22 @@ package pizza;
 
 // Imports
 
-public interface Pizza {
+public abstract class Pizza { // Changed to Abstract cuz Interface makes no sense
 
     // Attributes
-    String getDescription();
-    double getCost();
+    protected String description;
+    protected double cost;
 
-    // ________________________________________________________
+    // _____________________________________________
+
+    public String getDescription() {
+        return description;
+    }
+
+    // _____________________________________________
+
+    public double getCost() {
+        return cost;
+    }
 
 }

@@ -7,8 +7,8 @@ public interface DeliveryStrategy {
 
     // Attributes
 
-    // ________________________________________________________
+    // _______________________________________________
 
-    void deliver(Pizza pizza);
+    String getDeliveryMessage(Pizza pizza);
 
 }

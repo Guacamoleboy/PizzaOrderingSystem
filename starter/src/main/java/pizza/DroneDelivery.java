@@ -1,12 +1,14 @@
-// Package
 package pizza;
-
-// Imports
 
 public class DroneDelivery implements DeliveryStrategy {
 
     // Attributes
+    // _______________________________________________
 
-    // ________________________________________________________
+    @Override
+    public String getDeliveryMessage(Pizza pizza) {
+        return "Delivery method: Drone Delivery selected. Your pizza is flying to you!";
+    }
 
 }
+

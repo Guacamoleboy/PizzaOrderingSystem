@@ -1,12 +1,14 @@
-// Package
 package pizza;
-
-// Imports
 
 public class HomeDelivery implements DeliveryStrategy {
 
     // Attributes
 
-    // ________________________________________________________
+    // _______________________________________________
+
+    @Override
+    public String getDeliveryMessage(Pizza pizza) {
+        return "Delivery method: Home Delivery selected. Your pizza will arrive soon!";
+    }
 
 }

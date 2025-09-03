@@ -1,9 +1,6 @@
-// Package
 package pizza;
 
-// Imports
-
-public abstract class ToppingDecorator implements Pizza {
+public abstract class ToppingDecorator extends Pizza {
 
     // Attributes
     protected Pizza pizza;
